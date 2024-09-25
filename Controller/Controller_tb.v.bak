@@ -1,0 +1,19 @@
+module Controller_tb();
+reg clk;
+reg [31:0] instr;
+
+wire [1:0] out;
+
+RegisterFile dut(clk, instr, out);
+
+// Begin clock squarewave
+initial begin 
+clk=0;
+forever #5 clk=~clk;
+end
+
+initial begin
+
+
+
+end

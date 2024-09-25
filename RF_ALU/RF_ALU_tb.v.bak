@@ -1,0 +1,16 @@
+module RegisterFile_tb();
+reg clk, RegWrite;
+reg [31:0] instr;
+reg [31:0] Writedata;
+wire [31:0] rd1;
+wire [31:0] rd2;
+
+RegisterFile dut(clk, RegWrite, instr, Writedata, rd1, rd2);
+initial begin 
+clk=0;
+forever #5 clk=~clk;
+end
+
+initial begin
+end
+endmodule

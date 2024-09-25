@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/17.0/simulation/modelsim
+vController
+Z1 !s110 1701728901
+!i10b 1
+!s100 N`Y3]`:XVTmE01CH]e8jI3
+I0]Uda;PaUk_IZS=DdZ0o62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701726654
+8C:/intelFPGA_lite/17.0/Controller.v
+FC:/intelFPGA_lite/17.0/Controller.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701728901.000000
+!s107 C:/intelFPGA_lite/17.0/Controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.0|C:/intelFPGA_lite/17.0/Controller.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/17.0
+Z7 tCvgOpt 0
+n@controller
+vController_tb
+R1
+!i10b 1
+!s100 ;S;9:RiIB]A14c8A61E3T1
+I^ZNS?^8z@9LYe1AiEEcQd3
+R2
+R0
+w1701728442
+8C:/intelFPGA_lite/17.0/Controller_tb.v
+FC:/intelFPGA_lite/17.0/Controller_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/17.0/Controller_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/17.0|C:/intelFPGA_lite/17.0/Controller_tb.v|
+!i113 1
+R5
+R6
+R7
+n@controller_tb

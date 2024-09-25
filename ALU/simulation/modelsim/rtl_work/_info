@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/meron/QuartasProjects/ALU/simulation/modelsim
+vALU
+Z1 !s110 1701121925
+!i10b 1
+!s100 jWPFGNRYX@A?_E8=[n4O;2
+IC^FoGX7H2BhEUKa6_Xlch0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1701121468
+8C:/Users/meron/QuartasProjects/ALU/ALU.v
+FC:/Users/meron/QuartasProjects/ALU/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701121925.000000
+!s107 C:/Users/meron/QuartasProjects/ALU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/meron/QuartasProjects/ALU|C:/Users/meron/QuartasProjects/ALU/ALU.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/meron/QuartasProjects/ALU
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R1
+!i10b 1
+!s100 Q5YL6nnG`?kCVmW;C:dWU3
+IGg3eS]cMZANX0XR[I8Cl50
+R2
+R0
+w1701121860
+8C:/Users/meron/QuartasProjects/ALU/ALU_tb.v
+FC:/Users/meron/QuartasProjects/ALU/ALU_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/meron/QuartasProjects/ALU/ALU_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/meron/QuartasProjects/ALU|C:/Users/meron/QuartasProjects/ALU/ALU_tb.v|
+!i113 1
+R5
+R6
+R7
+n@a@l@u_tb

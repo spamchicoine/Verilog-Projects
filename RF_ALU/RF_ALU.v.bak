@@ -1,0 +1,35 @@
+module RegisterFile (input clk,
+						input RegWrite,
+						input [3:0] ALU_control;
+						input [31:0] instr,
+						input [31:0] Writedata,
+						output reg[31:0] rd1,
+						output reg[31:0] rd2);
+						
+reg [31:0] registers [31:0];
+integer i;
+reg [4:0] rs1;
+reg [4:0] rs2;
+reg [4:0] rd;
+
+initial begin
+	for(i=0;i<32;i=i+1)
+		registers[i] <= 0;
+end
+
+always @ (posedge clk) begin
+	registers[0] <= 0;
+	
+	rs1 = instr[19:15];
+	rs2 = instr[24:20];
+	rd = instr[11:7];
+
+	rd1 = registers[rs1];
+	rd2 = registers[rs2];
+	
+	if (RegWrite)
+		registers[rd] = Writedata;
+		
+	registers[0] <= 0;
+end  
+endmodule
